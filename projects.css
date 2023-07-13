@@ -1,0 +1,129 @@
+#projects {
+  width: 100vw;
+  height: 100vh;
+  background-color: #667959;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding: 2px;
+  padding-bottom: 0;
+}
+.projectheading{
+  color: #FFF2C2;
+  position: relative;
+  left: 50px;
+  top: 10px;
+  font-size: 30px;
+  font-family: Arial;
+  font-size: 40px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.contactbutton {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: #667959;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  left: -610px;
+  top: 60px;
+}
+
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  flex: 0 0 auto;
+  width: 300px; /* Adjust the card width as needed */
+  height: 500px; /* Adjust the card height as needed */
+  background-color: #FFFFFF;
+  border-radius: 40px;
+  margin: 0 15px;
+  margin-top: 40px;
+  position: relative;
+}
+
+.card-content {
+  padding: 0;
+  font-family: arial;
+  padding: 20px; /* Adjust the padding as needed */
+  background-color: #FFFFFF; /* Set the background color for the card content */
+  border-radius: 40px; /* Set the border radius for the card content */
+}
+
+.arrows {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.rotate-arrow {
+  font-size: 50px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.left-arrow {
+  transform: rotate(180deg);
+  position: absolute;
+}
+
+.right-arrow {
+  transform: rotate(0deg);
+}
+
+.bubble {
+  background-color: #88A078;
+  color: white;
+  border-radius: 70px;
+  padding: 10px;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 20px;
+}
+
+.pythonh3 {
+  position: relative;
+  top: 213px;
+  font-family: arial;
+}
+.javah3 {
+  position: relative;
+  top: 217px;
+  left: 10px;
+  font-family: arial;
+}
+.firebaseh3 {
+  position: relative;
+  top: 217px;
+  left: 50px;
+  font-family: arial;
+
+}
+.pytho3 {
+  position: relative;
+  top: 253px;
+  left: -40px;
+  font-family: arial;
+}
+.headr {
+  position: relative;
+  top: 130px;
+  left: 8px;
+  font-family: arial;
+}
+.remindertext {
+  padding: 0px;
+}

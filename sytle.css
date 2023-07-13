@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #667959;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+  .topnav {
+    padding: 25px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    background-color: transparent; /* Set background color to transparent */
+}
+
+.topnav a {
+  color: white; /* Set text color to white */
+  font-family: arial;
+  font-weight: bold;
+}
+.home {
+    padding: 20px;
+}
+.Welcome {
+    color: white;
+    position:relative; 
+    top:10px;
+    left: 30px;
+    padding: 5px;
+    font-size: 45px;
+    font-family: Arial;
+}
+.myname {
+    color: white;
+    position: relative;
+    left:30px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.Preet {
+    color: #FFF2C2;
+    position:relative; 
+    left:140px; 
+    top:-55px;
+    font-size: 30px;
+    font-family: Arial;
+}
+.major {
+    color: white ;
+    position:relative; 
+    top:80px;
+    left: 30px;
+    font-family: Arial;
+}
+.Software {
+    color: #FFF2C2;
+    position:relative; 
+    left: 165px;
+    top: -3px ;
+    font-size: 45px;
+    font-family: Arial;
+}
+.more {
+    color:white;
+    position:relative; 
+    font-family: Arial;
+    top: -40px ;
+    left:30px;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+.me {
+    position:relative; 
+    top: -350px;
+    left: 800px;
+    width: 400px;
+}
+
+.button-link {
+  display: inline-block;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.button-image {
+  position: relative;
+  top: -200px;
+  left: -200px;
+  width: 100px;
+  opacity: 0;
+  transition: opacity 2s ease-in-out; /* Add transition property for opacity */
+}
+
+.button-image.fade-in {
+  opacity: 1; /* Update class name to fade-in */
+}
+
+
+
+@keyframes move-arrow-animation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+@keyframes bounce {
+    0% { transform: translate(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+  }
+  
+  .bounce-animation {
+    animation: bounce 1s infinite;
+  }
+  
+ .fade-in {
+    opacity: 0;
+    animation: fadeInAnimation 2s ease-in-out forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes typingAnimation {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  @keyframes dotAnimation {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+    
+  .move-arrow-animation {
+    animation: move-arrow-animation 1.5s infinite;
+  }
+  

@@ -1,0 +1,65 @@
+#about-me {
+  width: 100vw;
+  height: 100vh;
+  background-color: #FFF9E5;
+  overflow: auto;
+  overflow-x: hidden;
+}
+.peace1 {
+  position: relative;
+  left: 1000px;
+  top: 20px;
+  width: 300px;
+  padding: 0px;
+  margin: 0px;
+}
+  .AboutMe {
+    color: #667959;
+    position: relative;
+    left: 50px;
+    top: 10px;
+    font-size: 30px;
+    font-family: Arial;
+    font-size: 40px;
+  }
+
+  .Projects-button { 
+    background-color: #667959;
+    border-radius: 5px;
+    position: relative;
+    padding: 10px 20px;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    top: -30px;
+    left: 50px;
+    font-size: 20px;
+  }
+  
+.Aboutparagraph {
+  position: relative;
+  top: -280px;
+  left: 30px;
+  font-family: Arial;
+}
+
+.praga {
+  position: relative;
+  top: -240px;
+  left: 30px;
+  font-family: Arial;
+}
+
+.two{
+  position: relative;
+  top: -180px;
+  left: 30px;
+  font-family: Arial;
+}
+      
+.three {
+  position: relative;
+  top: -130px;
+  left: 30px;
+  font-family: Arial;
+}
